@@ -1,1 +1,37 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+footer {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+section {
+  padding: 20px;
+  width: 100vh;
+}
+
+li {
+  list-style: none;
+}
+button {
+  margin-left: 10px;
+}
+
+li button {
+  display: none;
+}
+
+li:hover button {
+  display: block;
+}
